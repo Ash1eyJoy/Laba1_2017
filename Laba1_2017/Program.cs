@@ -11,7 +11,7 @@ namespace Laboratorka1
         static void Main(string[] args)
 
         {
-            Console.Title = "Ахвердиев Валерий ИУ5-31Б";
+            Console.Title = "Ахвердиев Валерий  ИУ5-31Б";
             double A, B, C, X1, X2, X3, X4;
             if (args.Length == 3)
             {
