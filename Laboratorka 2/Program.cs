@@ -12,7 +12,7 @@ namespace Lab_2
     {
         static void Main(string[] args)
         {
-            Console.Title = "Ахвердиев Валерий ИУ5-31Б";
+            Console.Title = "Ахвердиев Валерий  ИУ5-31Б";
             double a, b;
             Console.WriteLine("Введите длину прямоугольника");
             a = double.Parse(Console.ReadLine());
