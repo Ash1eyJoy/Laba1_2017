@@ -18,8 +18,8 @@ namespace Lab_2
             a = double.Parse(Console.ReadLine());
             Console.WriteLine("Введите высоту прямоугольника");
             b = double.Parse(Console.ReadLine());
-            Rectangle rect = new Rectangle(a, b);
-            rect.Print();
+            Rectangle rectangle = new Rectangle(a, b);
+            rectangle.Print();
             Console.WriteLine("Введите сторону квадрата");
             a = double.Parse(Console.ReadLine());
             Square square = new Square(a);
@@ -28,8 +28,6 @@ namespace Lab_2
             a = double.Parse(Console.ReadLine());
             Circle circle = new Circle(a);
             circle.Print();
-            Console.ReadKey();
-            System.Environment.Exit(0);
             Console.ReadLine();
         }
     }
