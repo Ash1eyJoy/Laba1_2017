@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Laboratorka_3.Circle" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Figures\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorka_3.EmptyFigure" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Figures\EmptyFigure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorka_3.Figure" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQAEAAA=</HashCode>
+      <FileName>Figures\Figure.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Laboratorka_3.FigureMatrixCheckEmpty" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figures\FigureMatrixCheckEmpty.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Laboratorka_3.Rectangle" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAEAAAAAEAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Figures\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorka_3.Square" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figures\Square.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorka_3.Program" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorka_3.SparseMatrix.Matrix&lt;T&gt;" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAEABCAAAAAAAAECACAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>SparseMatrix\Matrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorka_3.Stack.SimpleStack&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAIAAAAAAACAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Stack\SimpleStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laboratorka_3.Stack.SimpleStackElement&lt;T&gt;" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stack\SimpleStackElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Laboratorka_3.IPrint" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Figures\IPrint.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Laboratorka_3.SparseMatrix.IMatrixCheckEmpty&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SparseMatrix\IMatrixCheckEmpty.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
