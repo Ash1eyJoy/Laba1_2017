@@ -9,7 +9,7 @@ namespace Laboratorka_6
 
         static void Main(string[] args)
         {
-            Console.Title = "Ахвердиев Валерий  ИУ5-31Б";
+            Console.Title = "Ахвердиев Валерий  ИУ5-31Б ";
             // Delegate Testing
             Apply(MakeStringSum, 10, 15.2);
             Apply((x, y) => $"{x} - {y} = {(x - y)}", 10, 15.2);
