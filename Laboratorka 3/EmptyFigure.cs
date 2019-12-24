@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Laba_2;
+
 
 namespace Laboratorka_3
 {
-    public interface IPrint
+    public class EmptyFigure : Figure
     {
-        void Print();
+        public override double Area()
+        {
+            return 0;
+        }
     }
 }

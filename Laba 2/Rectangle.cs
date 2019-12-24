@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Laboratorka_3
+namespace Laba_2
 {
     public class Rectangle : Figure
     {

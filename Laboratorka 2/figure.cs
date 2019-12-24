@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Laboratorka_2
 {
-    abstract class Figure
+    public abstract class Figure: IComparable
     {
         public string Type
         {
@@ -26,6 +26,14 @@ namespace Laboratorka_2
         public override string ToString()
         {
             return this._Type + this.Area().ToString();
+        }
+
+        public int CompareTo(object obj)
+        {
+            var figure = (Figure)obj;
+            if (this.Area() < figure.Area()) return -1;
+            if (this.Area() == figure.Area()) return 0;
+            return 1;
         }
     }
 }

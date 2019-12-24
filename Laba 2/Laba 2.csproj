@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{29CD709F-5E1C-414E-9780-3D37597401A0}</ProjectGuid>
+    <ProjectGuid>{4BC301B0-1A57-4902-AE7D-429FA25B919B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Laboratorka_3</RootNamespace>
-    <AssemblyName>Laboratorka 3</AssemblyName>
+    <RootNamespace>Laba_2</RootNamespace>
+    <AssemblyName>Laba 2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,25 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmptyFigure.cs" />
-    <Compile Include="FigureMatrixCheckEmpty.cs" />
-    <Compile Include="SparseMatrix\IMatrixCheckEmpty.cs" />
-    <Compile Include="SparseMatrix\Matrix.cs" />
+    <Compile Include="Figure.cs" />
+    <Compile Include="IPrint.cs" />
+    <Compile Include="Rectangle.cs" />
+    <Compile Include="Square.cs" />
+    <Compile Include="Circle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Stack\SimpleStack.cs" />
-    <Compile Include="Stack\SimpleStackElement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Laba 2\Laba 2.csproj">
-      <Project>{4bc301b0-1a57-4902-ae7d-429fa25b919b}</Project>
-      <Name>Laba 2</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

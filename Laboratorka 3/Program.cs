@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Laboratorka_3.SparseMatrix;
 using Laboratorka_3.Stack;
+using Laba_2;
 
 namespace Laboratorka_3
 {

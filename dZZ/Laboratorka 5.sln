@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorka 5", "Laboratorka 5.csproj", "{BBC70AE8-E898-4EE2-B71F-358A3321133F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5_library", "..\Lab5_library\Lab5_library.csproj", "{9F6C703F-D258-4392-87D0-677BDA40FDCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBC70AE8-E898-4EE2-B71F-358A3321133F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC70AE8-E898-4EE2-B71F-358A3321133F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC70AE8-E898-4EE2-B71F-358A3321133F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC70AE8-E898-4EE2-B71F-358A3321133F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6C703F-D258-4392-87D0-677BDA40FDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6C703F-D258-4392-87D0-677BDA40FDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6C703F-D258-4392-87D0-677BDA40FDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6C703F-D258-4392-87D0-677BDA40FDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70D29306-EF51-4DE8-98FD-9B7C2A80CFE8}
+	EndGlobalSection
+EndGlobal
